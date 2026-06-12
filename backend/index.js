@@ -11,6 +11,7 @@ app.use(
       "http://localhost:5174",
       "http://localhost:5173",
       "http://localhost:3000",
+      "https://full-stack-app-demo-xl9u.vercel.app",
     ],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
