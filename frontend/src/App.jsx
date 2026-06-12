@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(() => {
     async function getData() {
-      const data = await axios.get("http://localhost:4000/users");
+      const data = await axios.get(`${import.meta.env.VITE_API_URL}/users`);
 
       setUsers(data.data.users);
     }
